@@ -1,0 +1,8 @@
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm){
+
+  body{
+    background-color: green;
+  }
+
+}

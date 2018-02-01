@@ -1,0 +1,15 @@
+
+live:
+    scheme: "sftp"
+    host: ""
+    port: "9600"
+    user: ""
+    privateKey: "~/.ssh/id_rsa_dploy"
+    slots: 2
+    check: true
+    exclude: ["project-files/*", "**/wp-config.php", ".gitignore", "**/sitemap.xml", "**/.htaccess", "**/README.md", "**/uploads", "datadump"]
+    include:
+      "web/css/import.css": "css/"
+    path:
+        local: "web/"
+        remote: "web/template/"

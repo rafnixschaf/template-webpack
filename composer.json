@@ -1,0 +1,14 @@
+{
+  "name": "rudel/template",
+  "type": "project",
+  "authors": [
+    {
+      "name": "rudel",
+      "email": "rafnixschaf@gmx.de"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "^2.4"
+  }
+}
